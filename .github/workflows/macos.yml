@@ -8,6 +8,7 @@ concurrency:
 
 env:
   TESTS_REDUCED_KEYLENGTHS: yes
+  TESTS_SUITES: "bio_reader,bio_writer,chunk,enum,enumerator,linked list,linked list and enumerators,hashtable,array,identification,traffic selector,threading"
   CCACHE_BASEDIR: ${{ github.workspace }}
   CCACHE_COMPRESS: true
   CCACHE_MAXSIZE: 100M
